@@ -13,7 +13,7 @@ namespace BlazorAuthentication.Migrations
 {
     [DbContext(typeof(ApplicationDbContext))]
     [Migration("20250114155254_null-dob")]
-    partial class nulldob
+    partial class Nulldob
     {
         /// <inheritdoc />
         protected override void BuildTargetModel(ModelBuilder modelBuilder)

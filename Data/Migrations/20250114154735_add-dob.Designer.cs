@@ -13,7 +13,7 @@ namespace BlazorAuthentication.Migrations
 {
     [DbContext(typeof(ApplicationDbContext))]
     [Migration("20250114154735_add-dob")]
-    partial class adddob
+    partial class Adddob
     {
         /// <inheritdoc />
         protected override void BuildTargetModel(ModelBuilder modelBuilder)
